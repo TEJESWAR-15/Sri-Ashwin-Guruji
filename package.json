@@ -1,13 +1,15 @@
 {
   "name": "sri-ashwin-guruji-website",
   "private": true,
+  "homepage": "https://TEJESWAR-15.github.io/Sri-Ashwin-Guruji",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.0.8",
